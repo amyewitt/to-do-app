@@ -43,9 +43,12 @@ function onReady() {
     // empty the input
     newToDoText.value = '';
 
-    $('#newLi').remove();
-
   });
+
+  deleteItem.addEventListener('submit',  function deleteItem () {
+    let x = document.getElementById("newLi");
+    x.remove();
+  )};
 
 }
 
