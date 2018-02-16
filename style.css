@@ -1,0 +1,28 @@
+body  {
+  background-color: #ffdab9;
+  font-family: Century Gothic;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6rem;
+}
+
+#addToDoForm {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+input {
+  height: 20px;
+  width: 400px;
+}
+
+button {
+  font-size: 1.2rem;
+}
+
+ul {
+  padding-left: 515px;
+  color: #2F4F4F;
+}
