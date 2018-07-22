@@ -35,9 +35,6 @@ function onReady() {
       button.type = "button";
       button.innerHTML = 'X';
 
-      button.addEventListener('click', deleteToDo =>
-        toDos.filter(toDo => toDo.id > id));
-
       newLi.textContent = toDo.title;
 
       toDoList.appendChild(newLi);
